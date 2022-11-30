@@ -1,4 +1,4 @@
-package com.example.bigbowlxp.Reservation;
+package com.example.bigxpbowl.Reservation;
 
 import lombok.Getter;
 import lombok.Setter;

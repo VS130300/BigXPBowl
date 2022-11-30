@@ -1,4 +1,4 @@
-package com.example.bigbowlxp.Customer;
+package com.example.bigxpbowl.Customer;
 
 public interface Repository {
 }

@@ -1,5 +1,4 @@
-package com.example.bigbowlxp.Activity;
-
+package com.example.bigxpbowl.Activity;
 public class Service
 {
 

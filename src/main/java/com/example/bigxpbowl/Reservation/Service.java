@@ -1,5 +1,4 @@
-package com.example.bigbowlxp.Reservation;
-
+package com.example.bigxpbowl.Reservation;
 public class Service
 {
 

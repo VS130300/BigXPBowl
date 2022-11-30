@@ -1,4 +1,5 @@
-package com.example.bigbowlxp.Employee;
+package com.example.bigxpbowl.Employee;
+
 
 public interface Repository {
 }

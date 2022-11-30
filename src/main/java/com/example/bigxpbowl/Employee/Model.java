@@ -1,4 +1,4 @@
-package com.example.bigbowlxp.Employee;
+package com.example.bigxpbowl.Employee;
 
 import lombok.Getter;
 import lombok.Setter;

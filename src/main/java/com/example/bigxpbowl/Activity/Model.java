@@ -1,4 +1,5 @@
-package com.example.bigbowlxp.Activity;
+package com.example.bigxpbowl.Activity;
+
 
 import lombok.Getter;
 import lombok.Setter;
