@@ -1,17 +1,19 @@
-package com.example.bigxpbowl.Customer;
+package com.example.bigxpbowl.Customer.Model;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Model
+@NoArgsConstructor
+public class Customer
 {
    private String name;
    private String email;
    private int phoneNumber;
 
-    public Model(String name, String email, int phoneNumber)
+    public Customer(String name, String email, int phoneNumber)
     {
         this.name = name;
         this.email = email;
