@@ -7,7 +7,7 @@ public class CustomerService
 {
     private final CrudRepository<CustomerModel, Long> repository;
 
-    public CustomerService(CrudRepository<CustomerModel, Long>)
+    public CustomerService(CrudRepository<CustomerModel, Long> repository)
     {
         this.repository = repository;
     }
