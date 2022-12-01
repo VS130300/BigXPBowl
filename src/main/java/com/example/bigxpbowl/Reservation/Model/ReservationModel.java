@@ -1,11 +1,11 @@
-package com.example.bigxpbowl.Reservation;
+package com.example.bigxpbowl.Reservation.Model;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Model
+public class ReservationModel
 {
     private int startTime;
     private int endTime;
@@ -13,7 +13,7 @@ public class Model
     private int reservationPrice;
     private int reservationID;
 
-    public Model(int startTime, int endTime, int amountOfPeople, int reservationPrice, int reservationID)
+    public ReservationModel(int startTime, int endTime, int amountOfPeople, int reservationPrice, int reservationID)
     {
         this.startTime = startTime;
         this.endTime = endTime;

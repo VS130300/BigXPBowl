@@ -1,4 +1,4 @@
-package com.example.bigxpbowl.Activity;
+package com.example.bigxpbowl.Activity.Model;
 
 
 import lombok.Getter;
@@ -6,12 +6,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Model
+public class ActivityModel
 {
     private String activityDescription;
     private int activityPrice;
 
-    public Model(String activityDescription, int activityPrice)
+    public ActivityModel(String activityDescription, int activityPrice)
     {
         this.activityDescription = activityDescription;
         this.activityPrice = activityPrice;

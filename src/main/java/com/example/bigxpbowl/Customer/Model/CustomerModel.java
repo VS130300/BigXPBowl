@@ -7,13 +7,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Customer
+public class CustomerModel
 {
    private String name;
    private String email;
    private int phoneNumber;
 
-    public Customer(String name, String email, int phoneNumber)
+    public CustomerModel(String name, String email, int phoneNumber)
     {
         this.name = name;
         this.email = email;
